@@ -1,0 +1,51 @@
+.columntop
+    {
+        height:150px;background-color: rgb(112, 55, 9);
+    }
+.column1
+    {
+        height:300px;width:10%;background-color: rgb(235, 196, 125);float:left;   
+    }
+.column2
+    {
+        height:300px;width:90%;background-color: rgb(252, 180, 121);float:left;    
+    }
+
+h1 
+    {
+        color:#ffa600;
+        text-align:center; 
+    }
+p
+    {
+        font-family:"Times New Roman";
+        font-size:20px;
+    }
+.column1 p
+    {
+        text-align:center;
+    }
+.column1 p:hover
+    {
+        background-color:rgb(218, 143, 93);
+        font-size:30px;
+    }
+
+#para1
+    {
+        text-align:center;color:blue;
+    }
+#para1:hover
+    {
+    background-color: red;
+    color:white;
+    }
+.center
+    {
+        text-align:center;
+    }
+
+div img    
+    {   
+        position:absolute; top:0; right:0; left:0; bottom:0; margin:auto;
+    }
