@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mystyle.css">
+
+</head>
+
+<body style="margin: 0px;">
+    <div class="columntop">    
+        <h1></h1>
+    </div> 
+    <div class="column1">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+    </div>   
+    <div class="column2">
+    <p id="para1"class="center">玩家好窮</p>
+        <p class="center">不是黃泉抽不起，花火更有性價比</p>
+        <p class="center">但我沒星瓊:P</p>
+    </div>
+    <script>
+        var para1 = document.getElementById("para1")
+
+        para1.addEventListener("mouseout", function(){
+            para1.textContent = "玩家好窮"
+        })
+        para1.addEventListener("mouseover", function(){
+            para1.textContent = "抽不起就退遊！"
+        })
+    </script>
+</body>
