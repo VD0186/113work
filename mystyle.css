@@ -1,14 +1,28 @@
 .columntop
     {
-        height:150px;background-color: rgb(112, 55, 9);
+        height:300px;background-color: rgb(112, 55, 9);opacity:0.9;
     }
 .column1
     {
-        height:300px;width:10%;background-color: rgb(235, 196, 125);float:left;   
+        height:600px;width:10%;background-color: rgb(235, 196, 125);float:left;position :fixed ;   
+    }
+.column1-2
+    {
+        height: 5000px;;width:10%;background-color: rgb(235, 196, 125);float:left;   
     }
 .column2
     {
-        height:300px;width:90%;background-color: rgb(252, 180, 121);float:left;    
+        height:800px;width:90%;background-color: rgb(252, 180, 121);float:left;
+            
+    }
+#header
+    {
+        background-image:url("travel4.jpg");
+        background-position:top center;
+        background-repeat:no-repeat;
+        background-size: auto 100%;
+        opacity:0.3;
+        height:300px
     }
 
 h1 
@@ -18,8 +32,8 @@ h1
     }
 p
     {
-        font-family:"Times New Roman";
-        font-size:20px;
+        font-family:"Arial";
+        font-size:40px;
     }
 .column1 p
     {
@@ -28,7 +42,7 @@ p
 .column1 p:hover
     {
         background-color:rgb(218, 143, 93);
-        font-size:30px;
+        font-size:50px;
     }
 
 #para1
@@ -49,3 +63,12 @@ div img
     {   
         position:absolute; top:0; right:0; left:0; bottom:0; margin:auto;
     }
+img {max-width:100%; height:auto; opacity: 1;}
+img:hover
+    {   
+    opacity:0.8;    
+    }
+#div0{height:50vh;background-color:white}
+#div1 {height:100vh;background-color:rgb(252, 180, 121)}
+#div2 {height:100vh;background-color:rgb(252, 180, 121)}
+#div3 {height:100vh;background-color:rgb(252, 180, 121)}
