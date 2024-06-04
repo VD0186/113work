@@ -96,7 +96,7 @@ window.onload = function() {
 
 document.addEventListener("DOMContentLoaded", function() {
     const container = document.querySelector(".container");
-    const images = ["tai01.jpg", "tai02.jpg", "tai03.jpg"]; 
+    const images = ["https://vd0186.github.io/113work/tai01.jpg", "https://vd0186.github.io/113work/tai02.jpg", "https://vd0186.github.io/113work/tai03.jpg"]; 
     let currentIndex = 0;
 
     setInterval(() => {
