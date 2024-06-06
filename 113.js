@@ -1,10 +1,5 @@
 
-window.onload = function() {
-    var specificDiv = document.getElementById('content0');
-    if (specificDiv) {
-        specificDiv.style.display = 'block';
-    }
-};    
+
 
 
     let prevScrollpos = window.pageYOffset;
